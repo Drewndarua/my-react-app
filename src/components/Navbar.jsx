@@ -6,7 +6,8 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to="/">
-        <img src={assets.logo} className="w-36" alt="" />
+        <h1 className="text-4xl text-black-500 w-full">Stylify</h1>
+        {/* <img src={assets.logo} className="w-36" alt="" /> */}
       </Link>
 
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
@@ -50,7 +51,7 @@ const Navbar = () => {
         <p className="absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]" />
       </link> */}
     </div>
-    //NOTE: add link tag if we have time
+    //NOTE: Fix link issues
   );
 };
 

@@ -27,9 +27,6 @@ const Collection = () => {
     }
   };
 
-  {
-    /*NOTE: Fix search function problems*/
-  }
   const applyFilter = () => {
     let productsCopy = products.slice();
 
